@@ -1,0 +1,290 @@
+/* Main container with website content */
+.container {
+    background-color: darkred;
+    width: 70%; 
+    height: 100%;
+    float: right;
+    padding-left: 20px;
+    padding-right: 80px;
+    text-align: center;
+    position: static;
+    
+}
+
+
+/* Media query for screens 767 pixels or smaller */
+@media (max-width: 767px) {
+    table.menu {
+        width: 200%; 
+        text-align: center;
+    }
+
+    div.container {
+        display: flex;
+        flex-direction: column; 
+
+    }
+}
+/* Media query for screens 767 pixels or smaller, changing the container size*/
+@media screen and (max-width: 767px){
+        .container{
+            
+            max-width: 100%;         
+
+        }
+
+}
+
+/* Media query for screens 991 pixels or smaller */
+@media (max-width: 991px) {
+    .basicInfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .selfie {
+        order: 2; /* Change the order to move selfie below the content */
+    }
+
+    .ttt {
+        width: 100%; /* Ensure the content takes full width */
+    }
+
+    h2#am {
+        text-align: center; /* Center the "About Me" heading */
+    }
+}
+
+
+
+/*Table for menu*/
+table.mainn {
+    border-collapse: collapse;
+    border: 5px solid darkred;
+    text-align: center;
+    width: auto; 
+    margin-left: 5px; 
+    float: left;
+    
+}
+table.tbody {
+    border: 5px solid black;
+}
+/* Inside the Table*/
+td.main {
+
+    background-color: darkred;
+    border-bottom: 10px solid gray;
+    top: -5px;
+    padding: 10px;
+    height: auto;
+
+}
+
+/* Main body*/
+body{
+    background-color: gray;
+    max-width: 960px;
+}
+
+/* Mission statement class*/
+.missionStatement{
+    clear: both;
+    color: white;
+}
+
+/*Basic info class*/
+.basicInfo{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    
+
+    .ttt{
+        width: 150%; 
+    }
+
+}
+
+/*Inside the about me table/list*/
+td.webtable{
+    border: 3px solid black;
+    width: 10%;
+    
+}
+
+/*Editing the Links*/
+a:link{
+        color: white;
+        text-decoration: none;
+}
+a:visited{
+    color: #00916E;
+}
+a:hover{
+        color: #FADF7F;
+}
+a:active{
+        color: #00916E;
+}
+a:focus{
+    color: white;
+}
+
+
+/*Table for websites*/
+table.web{
+    text-align: center;
+    float: left;
+    border: 5px solid black;
+}
+/*Inside the table for websites*/
+.websites{
+    clear: both;
+    text-align: center;
+    color: white;
+}
+
+/*Favorite food class*/
+.favFoods{
+
+    text-align: left;
+    color: white;
+    border: 10px dotted #DA9F93;
+   
+
+
+}
+
+/*span id for favorite foods*/
+#mff{
+    text-align: center;
+}
+
+
+/*class for image div*/
+div.selfie{
+    padding: 20px;
+    flex-direction: row;
+    width: 210px;
+    height: 210px;
+    
+    
+}
+
+/*image of myself*/
+img{
+    height: 300px;
+    width: 300px;
+    padding-left: 130px;
+    float: right;
+    padding-bottom: 70px;
+}
+
+/*span class for About me */
+.amm{
+    color: #E3A587;
+    position: relative;
+    top: -15px;
+    
+}
+
+/*h1 name class*/
+.namee {
+    color: #76B041;
+    position: relative;
+    top: -15px;
+}
+
+/*span class for mission statement*/
+.mmss{
+    color: #7699D4;
+    position: relative;
+    top: -15px;
+}
+
+/*span class for websites i found*/
+.wwiff{
+    color: #EA7AF4;
+    position: relative;
+    top: -15px;
+}
+
+/*span class for favorite foods*/
+.mfff{
+    color: #FBAF00;
+    position: relative;
+    top: -15px;
+}
+
+/*h1 tag*/
+h1{
+    color: white;
+}
+
+/*Dr.Bricklers image class*/
+.align-center{
+    padding-top: 15%; 
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.creds{
+    text-align: center;
+}
+
+a.rH{
+    color: white;
+}
+
+.ui-accordion-header {
+    background-color: darkred;
+
+}
+.ui-accordion-header {
+    background: darkred;
+    color: white;
+    
+}
+
+.ui-accordion-content {
+    max-width: unset !important;
+    width: auto;
+    height: 200px;
+    background-color: darkred;
+
+}
+
+#accordion.ui-accordion {
+    max-width: unset !important;
+    width: 150%;
+    height: 200%;
+    background-color: darkred;
+    
+    
+}
+.accrd{
+
+    color: white;
+}
+
+.taken{
+    width: auto;
+    color: white;
+}
+
+/* Media query for screens 767 pixels or smaller, changing the accordion size*/
+@media screen and (max-width: 767px){
+    #accordion.ui-accordion{
+        
+        max-width: unset !important;
+        width: 100%;
+    }
+}
+
+#arrayList{
+    color: white;
+}
